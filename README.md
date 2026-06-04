@@ -36,6 +36,12 @@ muselsl stream
 muse2-osc --host 127.0.0.1 --port 5005 --stream-type EEG --auto-reconnect
 ```
 
+3. Optional: start a small live EEG viewer:
+
+```bash
+muse2-viewer --window-seconds 8 --refresh-ms 50
+```
+
 ## OSC message format
 
 - Timestamp: `/muse/timestamp`

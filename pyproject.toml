@@ -12,11 +12,13 @@ dependencies = [
   "muselsl",
   "pylsl==1.18.2",
   "python-osc",
+  "matplotlib",
   "numpy",
 ]
 
 [project.scripts]
 muse2-osc = "muse2_to_live.stream_to_osc:main"
+muse2-viewer = "muse2_to_live.brainwaves_viewer:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

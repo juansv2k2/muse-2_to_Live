@@ -1,4 +1,5 @@
 muselsl
 pylsl==1.18.2
 python-osc
+matplotlib
 numpy
